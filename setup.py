@@ -8,5 +8,5 @@ setup(
     author="Ritesh",
     author_email= "sil.ritzzz@gmail.com",
     packages= find_packages(),
-    install_requires=[],
+    install_requires=["pymongo[srv]==4.3.2"],
 )
